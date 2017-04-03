@@ -1,0 +1,224 @@
+:BA847:
+  :airline: British Airways
+  :departure: Warsaw
+  :arrival: London
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  :time: ["11:45", "13:30"]
+  :price: 109
+
+:LO279:
+  :airline: Lot
+  :departure: Warsaw
+  :arrival: London
+  :days: ["friday"]
+  :time: ["14:30", "15:15"]
+  :price: 59
+
+:BA851:
+  :airline: British Airways
+  :departure: Warsaw
+  :arrival: London
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  :time: ["15:40", "17:25"]
+  :price: 99
+
+:LO285:
+  :airline: Lot
+  :departure: Warsaw
+  :arrival: London
+  :days: ["tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :time: ["20:05", "21:50"]
+  :price: 89
+
+
+:BA846:
+  :airline: British Airways
+  :departure: London
+  :arrival: Warsaw
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :time: ["10:50", "12:35"]
+  :price: 99
+
+:LO282:
+  :airline: Lot
+  :departure: London
+  :arrival: Warsaw
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :time: ["13:45", "15:30"]
+  :price: 79
+
+:LO280:
+  :airline: Lot
+  :departure: London
+  :arrival: Warsaw
+  :days: ["monday",  "wednesday", "friday", "saturday", "sunday"]
+  :time: ["17:45", "19:30"]
+  :price: 79
+
+:LO286:
+  :airline: Lot
+  :departure: London
+  :arrival: Warsaw
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :time: ["20:00", "21:45"]
+  :price: 89
+
+:LO331:
+  :airline: Lot
+  :departure: Warsaw
+  :arrival: Paris
+  :days: ["monday", "tuesday", "wednesday", "friday", "saturday", "sunday"]
+  :time: ["07:25", "09:55"]
+  :price: 89
+
+:AF1147:
+  :airline: Air France
+  :departure: Warsaw
+  :arrival: Paris
+  :days: ["tuesday", "wednesday", "thursday"]
+  :time: ["12:45", "15:15"]
+  :price: 69
+
+:AF1047:
+  :airline: Air France
+  :departure: Warsaw
+  :arrival: Paris
+  :days: ["monday"]
+  :time: ["15:30", "18:00"]
+  :price: 79
+
+:LO335:
+  :airline: Lot
+  :departure: Warsaw
+  :arrival: Paris
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :time: ["20:30", "23:00"]
+  :price: 89
+
+:LO334:
+  :airline: Lot
+  :departure: Paris
+  :arrival: Warsaw
+  :days: ["monday", "tuesday", "saturday", "sunday"]
+  :time: ["09:30", "12:00"]
+  :price: 79
+
+:AF1146:
+  :airline: Air France
+  :departure: Paris
+  :arrival: Warsaw
+  :days: ["monday", "tuesday", "saturday", "sunday"]
+  :time: ["11:55", "14:25"]
+  :price: 69
+
+:LO332:
+  :airline: Lot
+  :departure: Paris
+  :arrival: Warsaw
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :time: ["12:55", "14:25"]
+  :price: 79
+
+:AF1246:
+  :airline: Air France
+  :departure: Paris
+  :arrival: Warsaw
+  :time: ["19:35", "22:05"]
+  :days: ["monday", "thursday", "friday", "saturday", "sunday"]
+  :price: 89
+
+:AF1081:
+  :airline: Air France
+  :departure: London
+  :arrival: Paris
+  :time: ["06:20", "08:40"]
+  :days: ["monday", "tuesday"]
+  :price: 79
+
+:BA304:
+  :airline: British Airways
+  :departure: London
+  :arrival: Paris
+  :time: ["07:15", "09:35"]
+  :days: ["monday", "tuesday", "wednesday", "friday", "saturday", "sunday"]
+  :price: 79
+
+:BA308:
+  :airline: British Airways
+  :departure: London
+  :arrival: Paris
+  :time: ["10:50", "13:10"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  :price: 79
+
+:AF1781:
+  :airline: Air France
+  :departure: London
+  :arrival: Paris
+  :time: ["15:50", "18:10"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :price: 99
+
+:BA322:
+  :airline: British Airways
+  :departure: London
+  :arrival: Paris
+  :time: ["17:45", "20:05"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  :price: 79
+
+:AF1181:
+  :airline: Air France
+  :departure: London
+  :arrival: Paris
+  :time: ["20:10", "22:30"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :price: 109
+
+:BA303:
+  :airline: British Airways
+  :departure: Paris
+  :arrival: London
+  :time: ["07:25", "09:45"]
+  :days: ["wednesday", "thursday", "friday", "saturday", "sunday"]
+  :price: 89
+
+:AF1580:
+  :airline: Air France
+  :departure: Paris
+  :arrival: London
+  :time: ["10:10", "12:30"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  :price: 79
+
+:AF1780:
+  :airline: Air France
+  :departure: Paris
+  :arrival: London
+  :time: ["14:15", "16:35"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :price: 69
+
+:AF1280:
+  :airline: Air France
+  :departure: Paris
+  :arrival: London
+  :time: ["16:00", "18:20"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday"]
+  :price: 79
+
+:BA323: 
+  :airline: British Airways
+  :departure: Paris
+  :arrival: London
+  :time: ["18:20", "20:40"]
+  :days: ["wednesday", "thursday", "friday", "saturday", "sunday"]
+  :price: 89
+
+:BA327:
+  :airline: British Airways
+  :departure: Paris
+  :arrival: London
+  :time: ["21:00", "23:20"]
+  :days: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+  :price: 99

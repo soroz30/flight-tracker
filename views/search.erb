@@ -1,0 +1,56 @@
+<form method="get" action="/search">
+  <h2>Please select flight and date</h2>
+  <% if session[:message] %>
+    <h3><%= session.delete(:message) %></h3>
+  <% end %>
+  <dl>
+    <div id="left">
+      <dt>
+        <label for="from">From</label>
+      </dt>
+      <dd>
+        <select name="from" class="select" required>
+          <option value="Warsaw">Warsaw</option>
+          <option value="London">London</option>
+          <option value="Paris">Paris</option>
+        </select>
+      </dd>
+      <dt>
+        <label for="to">To</label>
+      </dt>
+      <dd>
+        <select name="to" class="select" required>
+          <option value="Warsaw">Warsaw</option>
+          <option value="London" selected>London</option>
+          <option value="Paris">Paris</option>
+        </select>
+      </dd>
+    </div>
+    <div id="right">
+      <dt>
+        <label for="airline">Airline</label>
+      </dt>
+      <dd>
+        <select name="airline" class="select">
+          <option value="Any">Any</option>
+          <option value="Lot">Lot</option>
+          <option value="British Airways">British Airways</option>
+          <option value="Air France">Air France</option>
+        </select>
+      </dd>
+      <dt>
+        <label for="date">Departure</label>
+      </dt>
+      <dd>
+        <input name="date" type="date" id="date" value="<%= @date %>" min="<%= @date %>" max="2017-06-30">
+      </dd>
+    </div>
+    <div id="clear"></div>
+    <dt id="last">
+      <label>Search</label>
+    </dt>
+    <dd>
+      <input type="submit" value="search">
+    </dd>
+  </dl>
+</form>

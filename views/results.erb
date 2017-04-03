@@ -1,0 +1,31 @@
+<div id="results">
+  <h2>Available Flights</h2>
+  <table>
+      <tr>
+        <th>Flight Number</th>
+        <th>From</th>
+        <th>To</th>
+        <th>Departure</th>
+        <th>Arrival</th>
+        <th>Price</th>
+      </tr>
+  <% if @flights.empty? %>
+  </table>
+    <h3>No flights available!</h3>
+  <% else %>
+    <% @flights.each do |number, flight_data| %>
+        <tr>
+          <td><%= number %></td>
+          <td><%= params[:from] %></td>
+          <td><%= params[:to] %></td>
+          <td><%= params[:date] %> <%= flight_data[:time][0] %></td>
+          <td><%= params[:date] %> <%= flight_data[:time][1] %></td>
+          <td><%= flight_data[:price] %>$</td>
+        </tr>
+    <% end %>
+  </table>
+  <% end %>
+  <a href="/"><button>Search again</button></a>
+</div>
+
+<p><%= @res %></p>
